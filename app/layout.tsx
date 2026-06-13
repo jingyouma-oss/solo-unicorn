@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -9,9 +9,9 @@ const inter = Inter({ subsets: ["latin"], display: "swap" });
 // Prompt: "Update the page title and description for SEO"
 // ============================================================
 export const metadata: Metadata = {
-  title: "Your Name - Your Professional Title | Your Services",
-  description: "Your value proposition in 150-160 characters. What do you do and who do you help?",
-  keywords: ["Keyword 1", "Keyword 2", "Keyword 3", "Keyword 4"],
+  title: "Jingyou Ma - MBA Student in Data Science | Data & Strategy",
+  description: "Jingyou Ma is an MBA student in Data Science at CSTU, focused on bridging business strategy with data-driven insights.",
+  keywords: ["Data Science", "MBA", "Business Strategy", "AI Orchestration"],
 };
 
 export default function RootLayout({
@@ -25,3 +25,4 @@ export default function RootLayout({
     </html>
   );
 }
+

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useEffect, useRef, useState } from "react";
 import { MenuIcon, CloseIcon } from "./Icons";
@@ -75,8 +75,7 @@ export function MobileNav() {
               >
                 Services
               </a>
-              <a
-                href="#about"
+              <a href="/resume" onClick={closeMenu} className="text-base font-medium text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors py-2">Resume</a><a href="#about"
                 onClick={closeMenu}
                 className="text-base font-medium text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors py-2"
               >
@@ -103,3 +102,4 @@ export function MobileNav() {
     </div>
   );
 }
+

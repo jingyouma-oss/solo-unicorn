@@ -1,4 +1,4 @@
-// ============================================================
+﻿// ============================================================
 // AGENTIC LANDING PAGE TEMPLATE
 // ============================================================
 // Customize this file using natural language prompts with
@@ -43,10 +43,10 @@ export default function Home() {
           {/* Logo */}
           <div className="flex items-center gap-2 cursor-pointer">
             <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-600 to-indigo-700 flex items-center justify-center text-white font-bold text-sm">
-              JS
+              JM
             </div>
             <span className="text-xl font-bold tracking-tight font-display text-slate-900 dark:text-white">
-              John Smith
+              Jingyou Ma
             </span>
           </div>
 
@@ -95,18 +95,18 @@ export default function Home() {
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold font-display tracking-tight text-slate-900 dark:text-white mb-6">
               Hi, I&apos;m{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">
-                John Smith
+                Jingyou Ma
               </span>
             </h1>
 
             {/* Title/Specialty */}
             <p className="text-xl md:text-2xl text-slate-600 dark:text-slate-300 mb-4 font-medium">
-              AI Orchestration Architect
+              MBA Student in Data Science
             </p>
 
             {/* Tagline */}
             <p className="text-lg text-slate-500 dark:text-slate-400 mb-8 max-w-2xl mx-auto">
-              I design and build intelligent systems where AI agents collaborate to solve problems no single model can tackle alone.
+              I focus on bridging the gap between business strategy and data science, leveraging AI to drive intelligent decision-making.
             </p>
 
             {/* CTA Buttons */}
@@ -168,7 +168,7 @@ export default function Home() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-slate-900 dark:text-white mb-1">Education</h3>
-                  <p className="text-sm text-slate-600 dark:text-slate-400">M.S. CS, Stanford & B.S. CE, Michigan</p>
+                  <p className="text-sm text-slate-600 dark:text-slate-400">MBA Data Science, CSTU & B.S. CS, State University</p>
                 </div>
               </div>
 
@@ -468,11 +468,11 @@ export default function Home() {
             {/* Contact options */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <a
-                href="mailto:john@email.com"
+                href="mailto:jingyou.ma@cstu.edu"
                 className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-white bg-blue-600 hover:bg-blue-700 rounded-xl transition-all shadow-lg shadow-blue-500/25"
               >
                 <MailIcon className="w-5 h-5 mr-2" />
-                john@email.com
+                jingyou.ma@cstu.edu
               </a>
               <a
                 href="/resume"
@@ -523,7 +523,7 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="text-sm text-slate-600 dark:text-slate-400">
-              © {new Date().getFullYear()} John Smith. All rights reserved.
+              漏 {new Date().getFullYear()} Jingyou Ma. All rights reserved.
             </div>
             <div className="flex items-center gap-6">
               <a href="#" className="text-sm text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
@@ -540,3 +540,4 @@ export default function Home() {
     </>
   );
 }
+
