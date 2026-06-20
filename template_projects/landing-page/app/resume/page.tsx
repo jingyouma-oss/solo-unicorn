@@ -1,5 +1,5 @@
 // ============================================================
-// DIGITAL RESUME - John Smith
+// DIGITAL RESUME - Jingyou Ma
 // ============================================================
 
 import {
@@ -11,16 +11,15 @@ import {
 export default function ResumePage() {
   return (
     <main className="min-h-screen bg-slate-50 dark:bg-slate-950 font-sans">
-      {/* NAVIGATION */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-800">
         <div className="container mx-auto px-4 md:px-6 flex items-center justify-between h-16">
           <div className="flex items-center gap-2 cursor-pointer">
             <a href="/" className="flex items-center gap-2">
               <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-600 to-indigo-700 flex items-center justify-center text-white font-bold text-sm">
-                JS
+                JM
               </div>
               <span className="text-xl font-bold tracking-tight font-display text-slate-900 dark:text-white">
-                John Smith
+                Jingyou Ma
               </span>
             </a>
           </div>
@@ -29,14 +28,13 @@ export default function ResumePage() {
             <a href="#experience" className="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-blue-600 transition-colors">Experience</a>
             <a href="#skills" className="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-blue-600 transition-colors">Skills</a>
             <a href="#education" className="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-blue-600 transition-colors">Education</a>
-            <a href="mailto:john@email.com" className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+            <a href="mailto:jingyou.ma@cstu.edu" className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors">
               Contact Me
             </a>
           </div>
         </div>
       </nav>
 
-      {/* HERO - Professional Summary */}
       <section className="relative pt-32 pb-16 md:pt-40 md:pb-24 overflow-hidden">
         <div className="absolute top-0 right-0 -z-10 w-[600px] h-[600px] bg-blue-100/50 dark:bg-blue-900/10 rounded-full blur-3xl opacity-70 translate-x-1/3 -translate-y-1/4"></div>
 
@@ -45,35 +43,33 @@ export default function ResumePage() {
             <div className="flex flex-col md:flex-row gap-8 items-start">
               <div className="flex-grow">
                 <h1 className="text-4xl md:text-5xl font-bold font-display tracking-tight text-slate-900 dark:text-white mb-2">
-                  John Smith
+                  Jingyou Ma
                 </h1>
                 <p className="text-xl md:text-2xl text-blue-600 dark:text-blue-400 font-medium mb-4">
-                  AI Orchestration Architect
+                  MBA Student in Data Science
                 </p>
 
-                {/* Quick info */}
                 <div className="flex flex-wrap gap-4 text-sm text-slate-600 dark:text-slate-400 mb-6">
                   <div className="flex items-center gap-2">
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
-                    Palo Alto, CA
+                    California, USA
                   </div>
                   <div className="flex items-center gap-2">
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
-                    john@email.com
+                    jingyou.ma@cstu.edu
                   </div>
                 </div>
 
-                {/* Professional Summary */}
                 <p className="text-slate-600 dark:text-slate-400 leading-relaxed mb-6">
-                  Engineer, systems thinker, and builder specializing in designing intelligent systems where AI agents collaborate to solve complex problems. Over nine years of experience building and rebuilding systems with a focus on orchestration layers that coordinate multiple AI models and data sources.
+                  Passionate about leveraging data to drive business decisions and exploring the intersection of business strategy and modern technology.
+                  Experienced in building production Python systems and currently pursuing an MBA in Data Science to bridge technical expertise with strategic business intelligence.
                 </p>
 
-                {/* Social links */}
                 <div className="flex gap-3">
                   <a href="#" className="flex items-center gap-2 text-sm text-slate-600 dark:text-slate-400 hover:text-blue-600 transition-colors">
                     <LinkedInIcon className="w-5 h-5" />
@@ -90,7 +86,6 @@ export default function ResumePage() {
         </div>
       </section>
 
-      {/* EXPERIENCE */}
       <section id="experience" className="py-16 bg-white dark:bg-slate-900">
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-4xl mx-auto">
@@ -104,20 +99,34 @@ export default function ResumePage() {
             <div className="space-y-8">
               <div className="relative pl-8 pb-8 border-l-2 border-blue-200 dark:border-blue-800">
                 <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-blue-600"></div>
-                <h3 className="text-xl font-bold text-slate-900 dark:text-white">AI Orchestration Platforms</h3>
-                <p className="text-blue-600 dark:text-blue-400 font-medium mb-3">Lead Architect</p>
+                <h3 className="text-xl font-bold text-slate-900 dark:text-white">Software Engineer</h3>
+                <p className="text-blue-600 dark:text-blue-400 font-medium mb-1">Current Company</p>
+                <p className="text-sm text-slate-500 mb-3">2023 - Present</p>
                 <ul className="space-y-2 text-slate-600 dark:text-slate-400">
                   <li className="flex items-start gap-2">
                     <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
-                    <span>Built multi-agent platforms processing millions of documents, saving thousands of hours of human review time.</span>
+                    <span>Reduced API latency by 40% by implementing Redis caching layer.</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
-                    <span>Designed intelligent routing layers that reduced AI compute costs by over 50%.</span>
+                    <span>Built event-driven data pipeline processing 1M+ events daily using SQS/SNS.</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="relative pl-8 pb-8 border-l-2 border-blue-200 dark:border-blue-800">
+                <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-slate-300 dark:bg-slate-700"></div>
+                <h3 className="text-xl font-bold text-slate-900 dark:text-white">Software Engineer</h3>
+                <p className="text-blue-600 dark:text-blue-400 font-medium mb-1">Previous Company</p>
+                <p className="text-sm text-slate-500 mb-3">2020 - 2023</p>
+                <ul className="space-y-2 text-slate-600 dark:text-slate-400">
+                  <li className="flex items-start gap-2">
+                    <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
+                    <span>Developed Python microservices handling 10K requests/minute.</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckIcon className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
-                    <span>Architected orchestration systems adopted across entire engineering organizations for production-grade AI.</span>
+                    <span>Implemented CI/CD pipelines reducing deployment time from 2 hours to 15 minutes.</span>
                   </li>
                 </ul>
               </div>
@@ -126,7 +135,6 @@ export default function ResumePage() {
         </div>
       </section>
 
-      {/* SKILLS */}
       <section id="skills" className="py-16 bg-slate-50 dark:bg-slate-950">
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-4xl mx-auto">
@@ -139,9 +147,9 @@ export default function ResumePage() {
 
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-white dark:bg-slate-800 rounded-2xl p-6">
-                <h3 className="font-semibold text-slate-900 dark:text-white mb-4">AI & Machine Learning</h3>
+                <h3 className="font-semibold text-slate-900 dark:text-white mb-4">Data Science &amp; AI</h3>
                 <div className="flex flex-wrap gap-2">
-                  {['Multi-Agent Systems', 'LLM Orchestration', 'RAG at Scale', 'Intelligent Routing', 'Prompt Engineering', 'Model Optimization'].map((skill) => (
+                  {["Data Analysis", "Business Intelligence", "Machine Learning", "Python", "SQL", "Gemini CLI", "Claude"].map((skill) => (
                     <span key={skill} className="bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 px-3 py-1.5 rounded-lg text-sm">
                       {skill}
                     </span>
@@ -150,9 +158,9 @@ export default function ResumePage() {
               </div>
 
               <div className="bg-white dark:bg-slate-800 rounded-2xl p-6">
-                <h3 className="font-semibold text-slate-900 dark:text-white mb-4">Systems Engineering</h3>
+                <h3 className="font-semibold text-slate-900 dark:text-white mb-4">Software Engineering</h3>
                 <div className="flex flex-wrap gap-2">
-                  {['Distributed Systems', 'System Architecture', 'Cloud Infrastructure', 'API Design', 'Performance Tuning', 'Scalability'].map((skill) => (
+                  {["Full Stack Development", "AWS (ECS, Lambda, RDS)", "API Design", "CI/CD Pipelines", "Distributed Systems", "Docker"].map((skill) => (
                     <span key={skill} className="bg-indigo-50 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-300 px-3 py-1.5 rounded-lg text-sm">
                       {skill}
                     </span>
@@ -164,7 +172,6 @@ export default function ResumePage() {
         </div>
       </section>
 
-      {/* EDUCATION */}
       <section id="education" className="py-16 bg-white dark:bg-slate-900">
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-4xl mx-auto">
@@ -180,18 +187,20 @@ export default function ResumePage() {
               <div className="bg-slate-50 dark:bg-slate-800 rounded-2xl p-6">
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2 mb-2">
                   <div>
-                    <h3 className="text-lg font-bold text-slate-900 dark:text-white">M.S. in Computer Science</h3>
-                    <p className="text-blue-600 dark:text-blue-400">Stanford University</p>
+                    <h3 className="text-lg font-bold text-slate-900 dark:text-white">MBA in Data Science</h3>
+                    <p className="text-blue-600 dark:text-blue-400">California State University (CSTU)</p>
                   </div>
+                  <span className="text-sm font-medium bg-blue-100 dark:bg-blue-900/50 text-blue-700 dark:text-blue-300 px-3 py-1 rounded-full">Current Student</span>
                 </div>
               </div>
 
               <div className="bg-slate-50 dark:bg-slate-800 rounded-2xl p-6">
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2 mb-2">
                   <div>
-                    <h3 className="text-lg font-bold text-slate-900 dark:text-white">B.S. in Computer Engineering</h3>
-                    <p className="text-blue-600 dark:text-blue-400">University of Michigan</p>
+                    <h3 className="text-lg font-bold text-slate-900 dark:text-white">B.S. in Computer Science</h3>
+                    <p className="text-blue-600 dark:text-blue-400">State University</p>
                   </div>
+                  <span className="text-sm text-slate-500">Graduated 2019</span>
                 </div>
               </div>
             </div>
@@ -199,11 +208,10 @@ export default function ResumePage() {
         </div>
       </section>
 
-      {/* FOOTER */}
       <footer className="py-8 bg-slate-100 dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center text-sm text-slate-600 dark:text-slate-400">
-            © {new Date().getFullYear()} John Smith. All rights reserved.
+            © {new Date().getFullYear()} Jingyou Ma. All rights reserved.
           </div>
         </div>
       </footer>
